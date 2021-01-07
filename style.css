@@ -1,0 +1,74 @@
+*
+{
+  padding: 0;
+  margin: 0;
+  font-size: 17px;
+  font-family: arial;
+}
+
+body
+{
+  background-image: url(https://i.ibb.co/TWhvL1V/paus.jpg);
+  background-size: auto 1100px;
+  background-repeat: no-repeat;
+  background-position: 50% 35%;
+} 
+
+.menuBar  
+{  
+  background-color:#2a4148;
+  text-align: center;
+  padding: 20px;  
+}
+
+.menuBar ul
+{
+  list-style: none;
+}
+
+.menuBar ul li
+{
+  background-color: rgb(26, 124, 227);
+  display: inline-block; 
+  padding: 10px;
+  margin-right: 30px;
+  transition: 1s;
+  width: 174px;
+}
+
+.menuBar ul li a
+{
+  text-decoration: none;
+  color: white;
+}
+
+.subMenu1
+{
+  display: none;
+  width: 174px;
+}
+
+.menuBar ul li:hover
+{
+  background-color: rgb(29, 104, 183);
+  
+}
+
+.menuBar ul li:hover .subMenu1
+{
+  display: block;
+  position: absolute; 
+  margin-top: 10px;
+  margin-left: -10px;
+}
+
+.menuBar ul li:hover .subMenu1 ul li
+{
+  display: block;
+  background-color: rgb(26, 124, 227);
+  width: 200px;
+}
+
+
+
+
